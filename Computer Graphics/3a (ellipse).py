@@ -1,0 +1,16 @@
+import turtle as t
+t.speed(20)
+t.fd(900)
+t.back(1800)
+t.home()
+t.left(90)
+t.fd(400)
+t.back(800)
+t.home()
+t.penup()
+t.goto(-70,-35)
+t.pendown()
+t.seth(-45)
+for i in range(2):
+    t.circle(100,90)
+    t.circle(100//2,90)
