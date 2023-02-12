@@ -1,7 +1,7 @@
 from graphics import*
 win=GraphWin("Hello",300,300)
 win.setBackground(color_rgb(255,0,0))
-pt=point(100,0)
+pt=Point(150,150)
 pt.draw(win)
 cir=Circle(pt,50)
 cir.setFill(color_rgb(100,25,50))
